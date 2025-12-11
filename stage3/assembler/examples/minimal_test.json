@@ -1,0 +1,25 @@
+{
+  "name": "\u041f\u0440\u043e\u0441\u0442\u043e\u0439 \u0442\u0435\u0441\u0442",
+  "instructions": [
+    {
+      "opcode": 72,
+      "field_b": 10,
+      "field_c": 1000
+    },
+    {
+      "opcode": 72,
+      "field_b": 11,
+      "field_c": 123456
+    },
+    {
+      "opcode": 8,
+      "field_b": 10,
+      "field_c": 11
+    },
+    {
+      "opcode": 113,
+      "field_b": 12,
+      "field_c": 11
+    }
+  ]
+}

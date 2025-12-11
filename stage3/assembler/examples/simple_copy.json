@@ -1,0 +1,106 @@
+{
+    "name": "Простое копирование массива",
+    "description": "Упрощенная тестовая программа для копирования 3 значений",
+    "instructions": [
+        {
+            "opcode": 72,
+            "field_b": 1,
+            "field_c": 4096
+        },
+        {
+            "opcode": 72,
+            "field_b": 2,
+            "field_c": 8192
+        },
+        {
+            "opcode": 72,
+            "field_b": 3,
+            "field_c": 286331153
+        },
+        {
+            "opcode": 72,
+            "field_b": 4,
+            "field_c": 572662306
+        },
+        {
+            "opcode": 72,
+            "field_b": 5,
+            "field_c": 858993459
+        },
+        {
+            "opcode": 8,
+            "field_b": 3,
+            "field_c": 1
+        },
+        {
+            "opcode": 72,
+            "field_b": 10,
+            "field_c": 4
+        },
+        {
+            "opcode": 8,
+            "field_b": 4,
+            "field_c": 10
+        },
+        {
+            "opcode": 72,
+            "field_b": 10,
+            "field_c": 8
+        },
+        {
+            "opcode": 8,
+            "field_b": 5,
+            "field_c": 10
+        },
+        {
+            "opcode": 113,
+            "field_b": 6,
+            "field_c": 1
+        },
+        {
+            "opcode": 8,
+            "field_b": 6,
+            "field_c": 2
+        },
+        {
+            "opcode": 72,
+            "field_b": 10,
+            "field_c": 4
+        },
+        {
+            "opcode": 113,
+            "field_b": 7,
+            "field_c": 10
+        },
+        {
+            "opcode": 72,
+            "field_b": 11,
+            "field_c": 4
+        },
+        {
+            "opcode": 8,
+            "field_b": 7,
+            "field_c": 11
+        },
+        {
+            "opcode": 72,
+            "field_b": 10,
+            "field_c": 8
+        },
+        {
+            "opcode": 113,
+            "field_b": 8,
+            "field_c": 10
+        },
+        {
+            "opcode": 72,
+            "field_b": 11,
+            "field_c": 8
+        },
+        {
+            "opcode": 8,
+            "field_b": 8,
+            "field_c": 11
+        }
+    ]
+}
