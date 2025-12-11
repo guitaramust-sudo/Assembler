@@ -1,0 +1,12 @@
+{
+    "name": "Тест унарного минуса",
+    "description": "Тест из спецификации УВМ: A=91, B=16, C=41, D=53",
+    "instructions": [
+        {
+            "opcode": 91,
+            "field_b": 16,
+            "field_c": 41,
+            "field_d": 53
+        }
+    ]
+}
