@@ -1,0 +1,186 @@
+{
+    "name": "Комплексный тест АЛУ",
+    "description": "Тестовая программа для демонстрации работы унарного минуса и проверки вычислений",
+    "instructions": [
+        {
+            "opcode": 72,
+            "field_b": 20,
+            "field_c": 4096
+        },
+        {
+            "opcode": 72,
+            "field_b": 21,
+            "field_c": 8192
+        },
+        {
+            "opcode": 72,
+            "field_b": 1,
+            "field_c": 123
+        },
+        {
+            "opcode": 8,
+            "field_b": 1,
+            "field_c": 20
+        },
+        {
+            "opcode": 91,
+            "field_b": 0,
+            "field_c": 20,
+            "field_d": 1
+        },
+        {
+            "opcode": 113,
+            "field_b": 2,
+            "field_c": 20
+        },
+        {
+            "opcode": 8,
+            "field_b": 2,
+            "field_c": 21
+        },
+        {
+            "opcode": 72,
+            "field_b": 3,
+            "field_c": 456
+        },
+        {
+            "opcode": 72,
+            "field_b": 22,
+            "field_c": 12
+        },
+        {
+            "opcode": 8,
+            "field_b": 3,
+            "field_c": 22
+        },
+        {
+            "opcode": 91,
+            "field_b": 0,
+            "field_c": 22,
+            "field_d": 3
+        },
+        {
+            "opcode": 113,
+            "field_b": 4,
+            "field_c": 22
+        },
+        {
+            "opcode": 72,
+            "field_b": 23,
+            "field_c": 16
+        },
+        {
+            "opcode": 8,
+            "field_b": 4,
+            "field_c": 23
+        },
+        {
+            "opcode": 72,
+            "field_b": 5,
+            "field_c": 0
+        },
+        {
+            "opcode": 72,
+            "field_b": 24,
+            "field_c": 20
+        },
+        {
+            "opcode": 8,
+            "field_b": 5,
+            "field_c": 24
+        },
+        {
+            "opcode": 91,
+            "field_b": 0,
+            "field_c": 24,
+            "field_d": 5
+        },
+        {
+            "opcode": 113,
+            "field_b": 6,
+            "field_c": 24
+        },
+        {
+            "opcode": 72,
+            "field_b": 25,
+            "field_c": 24
+        },
+        {
+            "opcode": 8,
+            "field_b": 6,
+            "field_c": 25
+        },
+        {
+            "opcode": 72,
+            "field_b": 7,
+            "field_c": 2147483647
+        },
+        {
+            "opcode": 72,
+            "field_b": 26,
+            "field_c": 28
+        },
+        {
+            "opcode": 8,
+            "field_b": 7,
+            "field_c": 26
+        },
+        {
+            "opcode": 91,
+            "field_b": 0,
+            "field_c": 26,
+            "field_d": 7
+        },
+        {
+            "opcode": 113,
+            "field_b": 8,
+            "field_c": 26
+        },
+        {
+            "opcode": 72,
+            "field_b": 27,
+            "field_c": 32
+        },
+        {
+            "opcode": 8,
+            "field_b": 8,
+            "field_c": 27
+        },
+        {
+            "opcode": 72,
+            "field_b": 9,
+            "field_c": 4294967295
+        },
+        {
+            "opcode": 72,
+            "field_b": 28,
+            "field_c": 36
+        },
+        {
+            "opcode": 8,
+            "field_b": 9,
+            "field_c": 28
+        },
+        {
+            "opcode": 91,
+            "field_b": 0,
+            "field_c": 28,
+            "field_d": 9
+        },
+        {
+            "opcode": 113,
+            "field_b": 10,
+            "field_c": 28
+        },
+        {
+            "opcode": 72,
+            "field_b": 29,
+            "field_c": 40
+        },
+        {
+            "opcode": 8,
+            "field_b": 10,
+            "field_c": 29
+        }
+    ]
+}

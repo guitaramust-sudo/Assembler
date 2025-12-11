@@ -1,0 +1,101 @@
+{
+    "name": "Копирование массива",
+    "description": "Тестовая программа для копирования массива с одного адреса на другой",
+    "instructions": [
+        {
+            "opcode": 72,
+            "field_b": 10,
+            "field_c": 4096
+        },
+        {
+            "opcode": 72,
+            "field_b": 11,
+            "field_c": 8192
+        },
+        {
+            "opcode": 72,
+            "field_b": 12,
+            "field_c": 5
+        },
+        {
+            "opcode": 72,
+            "field_b": 13,
+            "field_c": 0
+        },
+        {
+            "opcode": 72,
+            "field_b": 14,
+            "field_c": 4
+        },
+        {
+            "opcode": 72,
+            "field_b": 20,
+            "field_c": 286331153
+        },
+        {
+            "opcode": 72,
+            "field_b": 21,
+            "field_c": 572662306
+        },
+        {
+            "opcode": 72,
+            "field_b": 22,
+            "field_c": 858993459
+        },
+        {
+            "opcode": 72,
+            "field_b": 23,
+            "field_c": 1145324612
+        },
+        {
+            "opcode": 72,
+            "field_b": 24,
+            "field_c": 1431655765
+        },
+        {
+            "opcode": 8,
+            "field_b": 20,
+            "field_c": 10
+        },
+        {
+            "opcode": 72,
+            "field_b": 30,
+            "field_c": 4
+        },
+        {
+            "opcode": 8,
+            "field_b": 21,
+            "field_c": 30
+        },
+        {
+            "opcode": 72,
+            "field_b": 30,
+            "field_c": 8
+        },
+        {
+            "opcode": 8,
+            "field_b": 22,
+            "field_c": 30
+        },
+        {
+            "opcode": 72,
+            "field_b": 30,
+            "field_c": 12
+        },
+        {
+            "opcode": 8,
+            "field_b": 23,
+            "field_c": 30
+        },
+        {
+            "opcode": 72,
+            "field_b": 30,
+            "field_c": 16
+        },
+        {
+            "opcode": 8,
+            "field_b": 24,
+            "field_c": 30
+        }
+    ]
+}
