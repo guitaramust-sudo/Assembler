@@ -1,0 +1,267 @@
+{
+    "name": "Унарный минус над вектором длины 5",
+    "description": "Поэлементное применение унарного минуса к вектору из 5 элементов с записью результата обратно",
+    "instructions": [
+        {
+            "opcode": 72,
+            "field_b": 10,
+            "field_c": 4096,
+            "comment": "R10 = базовый адрес вектора (0x1000)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 11,
+            "field_c": 5,
+            "comment": "R11 = размер вектора (5 элементов)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 12,
+            "field_c": 4,
+            "comment": "R12 = размер элемента (4 байта)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 13,
+            "field_c": 0,
+            "comment": "R13 = индекс i = 0 (счетчик)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 1,
+            "field_c": 100,
+            "comment": "Элемент 1 = 100"
+        },
+        {
+            "opcode": 72,
+            "field_b": 2,
+            "field_c": 200,
+            "comment": "Элемент 2 = 200"
+        },
+        {
+            "opcode": 72,
+            "field_b": 3,
+            "field_c": 300,
+            "comment": "Элемент 3 = 300"
+        },
+        {
+            "opcode": 72,
+            "field_b": 4,
+            "field_c": 400,
+            "comment": "Элемент 4 = 400"
+        },
+        {
+            "opcode": 72,
+            "field_b": 5,
+            "field_c": 500,
+            "comment": "Элемент 5 = 500"
+        },
+        {
+            "opcode": 8,
+            "field_b": 1,
+            "field_c": 10,
+            "comment": "Запись элемента 1 в вектор[0]"
+        },
+        {
+            "opcode": 72,
+            "field_b": 20,
+            "field_c": 4
+        },
+        {
+            "opcode": 8,
+            "field_b": 2,
+            "field_c": 20,
+            "comment": "Запись элемента 2 в вектор[1] (адрес R10+4)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 20,
+            "field_c": 8
+        },
+        {
+            "opcode": 8,
+            "field_b": 3,
+            "field_c": 20,
+            "comment": "Запись элемента 3 в вектор[2] (адрес R10+8)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 20,
+            "field_c": 12
+        },
+        {
+            "opcode": 8,
+            "field_b": 4,
+            "field_c": 20,
+            "comment": "Запись элемента 4 в вектор[3] (адрес R10+12)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 20,
+            "field_c": 16
+        },
+        {
+            "opcode": 8,
+            "field_b": 5,
+            "field_c": 20,
+            "comment": "Запись элемента 5 в вектор[4] (адрес R10+16)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 13,
+            "field_c": 0,
+            "comment": "Сброс индекса i = 0"
+        },
+        {
+            "opcode": 72,
+            "field_b": 14,
+            "field_c": 1,
+            "comment": "R14 = 1 (инкремент)"
+        },
+        {
+            "opcode": 113,
+            "field_b": 15,
+            "field_c": 13,
+            "comment": "R15 = индекс i"
+        },
+        {
+            "opcode": 113,
+            "field_b": 16,
+            "field_c": 12,
+            "comment": "R16 = размер элемента (4)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 17,
+            "field_c": 0
+        },
+        {
+            "opcode": 113,
+            "field_b": 17,
+            "field_c": 15,
+            "comment": "R17 = i"
+        },
+        {
+            "opcode": 113,
+            "field_b": 18,
+            "field_c": 16,
+            "comment": "R18 = 4"
+        },
+        {
+            "opcode": 72,
+            "field_b": 19,
+            "field_c": 0
+        },
+        {
+            "opcode": 113,
+            "field_b": 19,
+            "field_c": 17,
+            "comment": "R19 = i (для вычисления смещения)"
+        },
+        {
+            "opcode": 113,
+            "field_b": 20,
+            "field_c": 18,
+            "comment": "R20 = 4"
+        },
+        {
+            "opcode": 72,
+            "field_b": 21,
+            "field_c": 0
+        },
+        {
+            "opcode": 113,
+            "field_b": 21,
+            "field_c": 10,
+            "comment": "R21 = базовый адрес вектора"
+        },
+        {
+            "opcode": 113,
+            "field_b": 22,
+            "field_c": 19,
+            "comment": "R22 = смещение = i * 4 (будет вычислено)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 23,
+            "field_c": 0
+        },
+        {
+            "opcode": 113,
+            "field_b": 23,
+            "field_c": 22,
+            "comment": "R23 = адрес текущего элемента"
+        },
+        {
+            "opcode": 113,
+            "field_b": 24,
+            "field_c": 23,
+            "comment": "R24 = значение элемента"
+        },
+        {
+            "opcode": 91,
+            "field_b": 0,
+            "field_c": 23,
+            "field_d": 24,
+            "comment": "Вычисление унарного минуса и запись обратно"
+        },
+        {
+            "opcode": 113,
+            "field_b": 25,
+            "field_c": 13,
+            "comment": "R25 = текущий индекс i"
+        },
+        {
+            "opcode": 113,
+            "field_b": 26,
+            "field_c": 14,
+            "comment": "R26 = 1"
+        },
+        {
+            "opcode": 72,
+            "field_b": 27,
+            "field_c": 0
+        },
+        {
+            "opcode": 113,
+            "field_b": 27,
+            "field_c": 25,
+            "comment": "R27 = i"
+        },
+        {
+            "opcode": 113,
+            "field_b": 28,
+            "field_c": 26,
+            "comment": "R28 = 1"
+        },
+        {
+            "opcode": 72,
+            "field_b": 29,
+            "field_c": 0
+        },
+        {
+            "opcode": 8,
+            "field_b": 29,
+            "field_c": 13,
+            "comment": "i = i + 1 (упрощенно)"
+        },
+        {
+            "opcode": 113,
+            "field_b": 30,
+            "field_c": 13,
+            "comment": "R30 = новый индекс"
+        },
+        {
+            "opcode": 113,
+            "field_b": 31,
+            "field_c": 11,
+            "comment": "R31 = размер вектора (5)"
+        },
+        {
+            "opcode": 72,
+            "field_b": 32,
+            "field_c": 0,
+            "comment": "Завершение программы (без цикла для простоты)"
+        }
+    ]
+}

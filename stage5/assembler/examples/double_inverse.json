@@ -1,0 +1,32 @@
+{
+    "name": "Двойная инверсия массива",
+    "description": "Применение унарного минуса дважды к каждому элементу (должен вернуться к исходным значениям)",
+    "instructions": [
+        {"opcode": 72, "field_b": 10, "field_c": 12288},
+        {"opcode": 72, "field_b": 20, "field_c": 16384},
+        {"opcode": 72, "field_b": 1, "field_c": 123},
+        {"opcode": 72, "field_b": 2, "field_c": 456},
+        {"opcode": 72, "field_b": 3, "field_c": 789},
+        {"opcode": 8, "field_b": 1, "field_c": 10},
+        {"opcode": 72, "field_b": 11, "field_c": 4},
+        {"opcode": 8, "field_b": 2, "field_c": 11},
+        {"opcode": 72, "field_b": 11, "field_c": 8},
+        {"opcode": 8, "field_b": 3, "field_c": 11},
+        {"opcode": 113, "field_b": 30, "field_c": 10},
+        {"opcode": 91, "field_b": 0, "field_c": 20, "field_d": 30},
+        {"opcode": 113, "field_b": 31, "field_c": 20},
+        {"opcode": 91, "field_b": 0, "field_c": 10, "field_d": 31},
+        {"opcode": 72, "field_b": 11, "field_c": 4},
+        {"opcode": 113, "field_b": 32, "field_c": 11},
+        {"opcode": 91, "field_b": 4, "field_c": 20, "field_d": 32},
+        {"opcode": 72, "field_b": 12, "field_c": 4},
+        {"opcode": 113, "field_b": 33, "field_c": 12},
+        {"opcode": 91, "field_b": 0, "field_c": 11, "field_d": 33},
+        {"opcode": 72, "field_b": 11, "field_c": 8},
+        {"opcode": 113, "field_b": 34, "field_c": 11},
+        {"opcode": 91, "field_b": 8, "field_c": 20, "field_d": 34},
+        {"opcode": 72, "field_b": 12, "field_c": 8},
+        {"opcode": 113, "field_b": 35, "field_c": 12},
+        {"opcode": 91, "field_b": 0, "field_c": 11, "field_d": 35}
+    ]
+}
